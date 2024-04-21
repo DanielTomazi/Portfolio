@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Olá, me chamo Daniel, sou desenvolvedor full-stack. Criei esse portfólio
+    para mostrar um pouco do meu conhecimento para vocês! Meus contatos estão no site, até mais!">
+    <title>Daniel Tomazi - Desenvolvedor</title>
+</head>
+<link rel="icon" href="img/danielIA.png">
+<link rel="stylesheet" href="header.css">
+<link rel="stylesheet" href="telaUm.css">
+<link rel="stylesheet" href="telaDois.css">
+<link rel="stylesheet" href="telaTres.css">
+<link rel="stylesheet" href="publicacoes.css">
+<body>
+    
+    <header id="header_nav">
+
+        <img src="img/logo4.png" alt="logo" height="50px" style="margin-top: auto; margin-bottom: auto;">
+        <ul id="botoesNav" class="desativado">
+            <a href="#telaUm" onclick="fechar()" class="bttNav"><li>Início</li></a>
+            <a href="#telaDois" onclick="fechar()" class="bttNav"><li >Quem sou</li></a>
+            <a href="#telaTres" onclick="fechar()" class="bttNav"><li >Portfólio</li></a>
+            <a href="#publicacoes" onclick="fechar()" class="bttNav"><li >Projetos</li></a>
+            <a href="https://cursos.alura.com.br/user/daniel-tomazi-oliveira/fullCertificate/1ad554876a82b7ffefd1224ce0d9f7f1" class = "bttNav"><li>Certificações</li></a>
+            <a href="seu_curriculo.pdf" class = "bttNav" download><li>Baixe aqui meu currículo</li></a>
+        </ul>
+
+        <a onclick="mudar_menu_nav()" id="iconBtt">
+            <div id="T1" class="icon"></div>
+            <div id="T2" class="icon"></div>
+            <div id="T3" class="icon"></div>
+        </a>
+
+    </header>
+<!-------------------------------------------->
+    <main>
+        <section class="telas" id="telaUm">
+        <div id="escritos">
+        <h1 class="txtT1">OLÁ, <br> SOU O <a class="tDestaque">DANIEL</a></h1>
+        <h2 class="txtT1" id="txtT1P2">DESENVOLVEDOR <a class="tDestaque">FULL-STACK</a> 
+        </h2> <a id="setaIcons" onclick="mostrarIcons()">ᐃ</a>
+        
+        </div>
+        <div id="container_iconsLang">
+        <img class="icones_linguagens" src="img/icons/html.png" alt="" height="100px">
+        <img class="icones_linguagens" src="img/icons/css.png" alt="" height="100px">
+        <img class="icones_linguagens" src="img/icons/js.png" alt="" height="100px">
+        <img class="icones_linguagens" src="img/icons/java.png" alt="" height="100px">
+        <img class="icones_linguagens" src="img/icons/sql.png" alt="" height="100px">
+        <img class="icones_linguagens" src="img/icons/python.png" alt="" height="100px">
+        </div>
+
+
+        
+        <img id="i1" src="img/detalheDireita.png" alt="">
+        <img id="iDaniel" src="img/daniel.png" alt="">
+        </section>
+
+        <section class="telas" id="telaDois">
+                <div id="redesSocias">
+
+                    <div id="iconesE">
+                        <a href="https://www.linkedin.com/in/daniel-tomazi-a82959282/"><img class="IRS" id="linkedin" src="img/RS/linkedin.png" alt="linkedin" height="30px;"></a>
+                        <a href="https://github.com/DanielTomazi"><img class="IRS" id="github" src="img/RS/git.png" alt="github" height="40px;"></a>
+                       
+                    </div>
+                    
+                <img id="danielIA" src="img/danielIA.png" onclick="mostrarRS()" alt="clique para ver as redes sociais" height="250px">
+                   
+                    <div id="iconesD">
+                        <a onclick="email()"  onclick=""><img class="IRS" id="hotmail" src="img/RS/hotmail.png" alt="hotmail" height="25px;"></a>
+                        <a href="https://www.instagram.com/danieltomaziii"><img class="IRS" id="instagram" src="img/RS/insta.png" alt="instagram" height="35px;"></a>
+                    </div>
+                    
+
+
+                </div>
+                <p id="txtClique">CLIQUE NA IMAGEM PARA ACESSAR MINHAS REDES SOCIAIS</p>
+                <div id="informacoes">
+
+                    <div id="boxUm" class="boxes"> <p id="txtBoxUm"> 
+                        OLÁ, MEU NOME É DANIEL TOMAZI, SOU DESENVOLVEDOR E ESTUDANTE DE CIÊNCIAS DA COMPUTAÇÃO, TENHO 24 ANOS E TENHO UMA BOA BASE EM VÁRIAS LINGUAGENS DE PROGRAMAÇÃO. CONFIRA MAIS EM MEU PERFIL DO GITHUB.<br> </p> </div>
+                    <div id="boxDois" class="boxes"> <p id="txtBoxDois">
+                        SOU UMA PESSOA COM ÓTIMAS HABILIDADES DE LÓGICA, FÁCIL ADAPTABILIDADE A NOVAS TECNOLOGIAS E FUNÇÕES QUE A MIM SEJAM ATRIBUÍDAS, POSSUO MUITA SEDE DE CONHECIMENTO, ESTOU SEMPRE DISPOSTO A APRENDER ALGO NOVO, CRESCER E EVOLUIR TANTO NO ASPECTO PESSOAL QUANTO PROFISSIONAL.</p> </div>
+                    <div id="boxTres" class="boxes"> <p id="txtBoxTres"> 
+                        SOBRE OS ESTUDOS, ESTOU CURSANDO CIÊNCIAS DA COMPUTAÇÃO PELA UNIVERSIDADE NOVE DE JULHO, A UNINOVE, E TAMBÉM ME DEDICO A ESTUDAR POR FORA NA PLATAFORMA DA ALURA, COMO DISSE, ESTOU SEMPRE DISPOSTO A APRENDER E EVOLUIR, PRETENDO FAZER UM MESTRADO NA ÁREA ASSIM QUE TIVER A POSSIBILIDADE.</p> </div>
+
+                </div>
+                <div id="backBtt"><a id="bttNav" onclick="mudarBox()">PRÓXIMO ᐅ</a></div>
+
+
+            </section>
+
+
+            <section class="telas" id="telaTres">
+                <h1 id="tituloPag3">PORTFÓLIO</h1>
+                <div id="containers">
+
+                    <div id="containerUm" class="cont"> 
+                        <h1 id="tituloCont">ATIVIDADES GERAIS</h1>
+                        <img id="imgCont1" class="imgConts" src="img/port/port1.png" alt="atividades gerais"> 
+                        <p id="txtPort1" class="txtPorts">Pelo menos uma vez na semana publico algum novo sistema no meu GITHUB para me 
+                            aprofundar nos meus estudos. Os códigos são de livre acesso e também fico à disposição para dúvidas ou novos interesses sobre eles. Estou em busca de uma oportunidade para migrar em definitivo para a área de desenvolvimento, e me comprometo a me dedicar 100% à empresa que me ceda essa oportunidade, fique a vontade para me contatar em meu WhatsApp ou me ligar caso queira.</p></div>
+                    <div id="containerDois" class="cont"> 
+                        <h1>CARREIRA</h1>
+                        <img id="imgCont2" class="imgConts" src="img/port/port2.png" alt="CARREIRA">
+                        <p id="txtPort2" class="txtPorts">Assim que me formei no ensino médio, fui construindo uma carreira sólida em diversas empresas de grande porte e muito reconhecidas no mercado de trabalho, como Rede D'or e Dimep, e logo me matriculei no curso de Ciências da Computação pela Universidade Nove de Julho, além de me dedicar mais ainda aos estudos na plataforma da Alura, uma das escolas de tecnologia mais reconhecidas do Brasil.</p></div>
+                    <div id="containerTres" class="cont">
+                        <h1>ESSE PORTFÓLIO</h1>
+                        <img id="imgCont3" class="imgConts" src="img/port/port3.png" alt="daniel">
+                        <p id="txtPort3" class="txtPorts">Esse portfólio foi escrito em HTML, CSS e JavaScript. Além disso, para produção e edição 
+                            de imagens usei o canvas. Você pode entrar em contato comigo através do meu Whatsapp que disponibilizei em meu currículo que você pode baixar aqui na página mesmo.</p></div>
+                </div>
+                <div id="backBtt"><a id="bttNav" onclick="mudarContainer()">PRÓXIMO ᐅ</a></div>
+
+            </section>
+
+            <section id="publicacoes">
+
+                    <h3 class="titulo_pag4">ALGUNS DE MEUS PROJETOS:</h3>
+                    
+                    <div class="container_pag4">
+
+                        <div class="box_job" id="job_um">
+                            <p>Jogo feito em HTML, CSS, JS e Jquery, sem uso de engine e seguindo o estilo "Endless Run"</p> 
+                            <a href="https://pumpkin-run.vercel.app/"><img src="img/page_4/btt_play.png" alt="Play"></a>
+                        </div>
+                        
+                        <div class="box_job" id="job_dois">
+                            <p>Site sobre uma empresa ficcticia feito com HTML, CSS e PHP</p> 
+                            
+                            <a href="https://nano-beach.vercel.app/"><img src="img/page_4/btt_play.png" alt="Play"></a>
+                            
+                        </div>
+                        <div class="box_job" id="job_tres">  
+                            <p>Jogo de puzzle feito com HTML, CSS, JS (Quando concluido, o jogo exibe uma animação divertida, cuidado com seus fones de ouvidos e o volume do seu dispositivo nesse momento)</p> 
+                            
+                            <a href="https://sliding-puzzle-pi.vercel.app/"><img src="img/page_4/btt_play.png" alt="Play"></a>
+                        </div>
+
+                    </div>
+
+                                
+                </section>
+
+    </main>
+<!-------------------------------------------->
+    <footer>
+
+    </footer>
+<!-------------------------------------------->
+
+</body>
+<script src="jquery.js"></script>
+<script src="script.js"></script>
+</html>

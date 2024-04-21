@@ -1,0 +1,77 @@
+#telaTres {
+    height: 100vh;
+    background-color: black;
+    background: url(img/backgroundtex.png) no-repeat center center;
+    background-size: cover;
+    color: rgb(194, 194, 194);
+    border-bottom: 5px solid rgb(107, 107, 107);
+    }
+    #tituloPag3 {
+        text-align: center;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+    #containers{
+        padding-top: 60px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .cont {
+        background-color: rgba(0, 0, 0, 0.226);
+        width: 350px;
+        text-align: center;
+        border: 2px solid rgba(255, 255, 255, 0.562);
+        padding: 20px;
+    }
+
+    .imgConts {
+        height: 20vh;
+        padding-top: 20px;
+    }
+
+    .txtPorts {
+        padding-top: 5vh;
+        font-size: 15px;
+    }
+
+
+    
+@media only screen and (max-width: 1000px){
+
+
+#containerDois, #containerTres{
+display: none;
+}
+#containerUm {
+    width: 80vw;
+    height: 60vh;
+}
+#containers{
+    padding-top: 5px;
+}
+
+}
+
+
+@media only screen and (max-width: 450px){
+
+    .imgConts {
+        height: 100px;
+    }
+    #containerUm {
+        height: 70vh;
+        max-height: 400px;
+    }
+    #txtPort1{
+        font-size: 15px
+    }
+}
+
+@media only screen and (max-height: 355px){
+
+.imgConts {
+    display: none;
+}
+
+}

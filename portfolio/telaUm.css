@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Inconsolata', monospace;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: rgb(24, 24, 24);
+}
+
+
+main{
+background: url(img/backgroundtex.png) no-repeat center center;
+background-size: cover;
+height: 100vh;
+}
+
+#telaUm {
+    position: relative;
+    height: 94vh;
+    border-bottom: 5px solid rgb(107, 107, 107);
+    
+}
+
+#escritos {
+
+    height: 200px;
+    width: 600px;
+    left: 50px;
+    top: 215px;
+    position: relative;
+}
+
+#setaIcons {
+    color: white;
+    top: 20px;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+.txtT1{
+    color: rgb(196, 196, 196);
+    font-size: 30px;
+    width: 600px;
+
+}
+
+#txtT1P2{
+    border-bottom: 1px solid white;
+}
+.tDestaque:hover {
+    text-shadow: 1px 1px 15px white;
+    transition: 1s;
+}
+
+#i1 {
+    position: absolute;
+    height: 70vh;
+    max-height: 400px;
+    right: 0px;
+    bottom: 0px;
+    
+}
+#iDaniel {
+    position: absolute;
+    height: 80vh;
+    max-height: 900px;
+    right: 0px;
+    bottom: 0px;
+}
+
+#container_iconsLang {
+    background-color: rgba(27, 27, 27, 0.205);
+    border: 1px solid rgb(255, 255, 255);
+    border-left: none;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 111px;
+    margin-left: 80px;
+    border-bottom-right-radius: 40px;
+    transition: 1s;
+    
+}
+
+
+
+@media only screen and (max-width: 1000px){
+    #setaIcons {
+        font-size: 30px;
+        margin-left: 188px;
+        transform: translateX(-200px);
+    }
+    
+    #container_iconsLang {
+        width: 80vw;
+        flex-wrap: wrap;
+        margin-left: 50%;
+        transform: translate(-50%);
+        margin-top: 0px;
+        border-bottom-left-radius: 40px;
+        position: absolute;
+        z-index: 79;
+        border-left: 1px solid white;
+        background-color: rgba(27, 27, 27, 0.856);
+
+    }
+
+    #escritos {
+    left: 50%;
+    height: 150px;
+    transform: translateX(-200px);
+    top: 20px;
+  }
+
+    .txtT1{
+        left: 0;
+        text-align: center;
+        color: rgb(196, 196, 196);
+        font-size: 20px;
+        top: 10px;
+        width: 400px;
+    }
+
+
+    #telaUm {
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (max-width: 300px){
+
+
+      
+    #container_iconsLang {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 50%;
+        transform: translate(-50%);
+        margin-top: 0px;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        position: absolute;
+        z-index: 79;
+        border-left: 1px solid white;
+
+    }
+
+}

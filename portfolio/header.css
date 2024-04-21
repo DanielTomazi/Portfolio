@@ -1,0 +1,94 @@
+    #header_nav {
+    background-color: rgba(0, 0, 0, 0.938);
+    height: 60px;
+    justify-content: space-around;
+    display: flex;
+    color: white;
+}
+
+/* posição padrão do menu de botões (sem mobile) */
+.desativado{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* botões */
+.bttNav{
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+
+   
+}
+
+.bttNav:hover{
+    background-color: rgba(255, 255, 255, 0.137);
+    padding: 20px;
+}
+
+/* riscos do icone para mobile */
+.icon {
+    height: 1px;
+    width: 30px;
+    background-color: white;
+    margin: 10px;
+    
+}
+
+/* Icone mobile*/
+#iconBtt {
+    margin-top: 8px;
+    display: none;
+}
+
+@media only screen and (max-width: 1000px){
+
+    .desativado{
+        display: none;}
+
+    .ativado{
+        z-index: 80;
+        background-color: black;
+        position: absolute;
+        top: 60px;
+        height: 100vh;
+        width: 100%;
+        list-style: none;
+        text-decoration: none;
+     }   
+
+    .bttNav{
+        margin: auto;
+        text-align: center;
+    }
+
+    .bttNav:hover{
+        background-color: black;
+        padding: 10px;
+    }
+
+    li {
+
+        border-bottom: 1px solid rgba(255, 255, 255, 0.603);
+        padding: 20px;
+
+    }
+    #iconBtt {
+        position: absolute;
+        display: block;
+        right: 5px;
+   }}
+
+
+@media only screen and (min-width: 1000px){
+    .ativado{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        text-decoration: none;
+        cursor: pointer;
+    }}
