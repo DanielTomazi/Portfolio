@@ -6,7 +6,6 @@
     color: white;
 }
 
-/* posição padrão do menu de botões (sem mobile) */
 .desativado{
     display: flex;
     align-items: center;
@@ -15,7 +14,6 @@
     cursor: pointer;
 }
 
-/* botões */
 .bttNav{
     margin-left: 50px;
     text-decoration: none;
@@ -30,7 +28,6 @@
     padding: 20px;
 }
 
-/* riscos do icone para mobile */
 .icon {
     height: 1px;
     width: 30px;
@@ -39,11 +36,11 @@
     
 }
 
-/* Icone mobile*/
 #iconBtt {
     margin-top: 8px;
     display: none;
 }
+  
 
 @media only screen and (max-width: 1000px){
 
@@ -81,7 +78,8 @@
         position: absolute;
         display: block;
         right: 5px;
-   }}
+   }
+}
 
 
 @media only screen and (min-width: 1000px){
