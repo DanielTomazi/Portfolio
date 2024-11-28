@@ -1,7 +1,8 @@
 # Portfólio
-Acesse meu site de portfólio aqui --> https://devdanieltomazi.vercel.app
+***
+Access my portfolio website here: https://devdanieltomazi.vercel.app
 ****
-Meu site de portfólio criado utilizando HTML, CSS e JavaScript. Nele constam minhas informações profissionais e também é uma forma de demonstrar meus conhecimentos e experiências.
+My portfolio website created using HTML, CSS, and JavaScript. It includes my professional information and also serves as a way to showcase my skills and experiences.
 
 ![logo](https://github.com/DanielTomazi/Portfolio/blob/main/Minha%20logo.png)
 ***
